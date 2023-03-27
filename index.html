@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+<title> Assessment Form</title>
+</head>
+<body id="body" >
+
+<div class="theResults">
+
+<div class="coverRes2" >
+	<h1 id="bruhScore">Are you sure you want to submit? </h1>
+	
+<div class="grpBtn2">
+	<input type="button" id="yesBtn" value=" Yes">
+	<input type="button" id="noBtn" value=" No">
+</div>
+
+		</div>
+		
+		<div class="coverRes" >
+	<h1 id="bruhScore">Score: </h1>
+	<h1 id="scorerh1"> 0 </h1>
+	
+	
+<div class="grpBtn">
+	<input type="button" id="backBtn" value=" View Your Answers">
+</div>
+
+		</div>
+
+<div class="coverRes4" >
+
+	<input type="button" id="gbackBtn" value=" Back">
+</div>
+
+	
+<div class="coverRes3" >
+	
+	<div class="scroller" >
+	<h1 id="qHeader">1. What does HTML stand for?</h1>
+	<br>
+	<p id="urAns">hehe</p>
+	<br>
+	<h1 id="qHeader">2. Which of the following is NOT a programming language?</h1>
+	<br>
+	<p id="urAns2"></p>
+	<br>
+	<h1 id="qHeader">3. Which programming language is often used for artificial intelligence and machine learning? </h1>
+	<br>
+	<p id="urAns3"></p>
+	<br>
+	<h1 id="qHeader">4. What is a function in programming? </h1>
+	<br>
+	<p id="urAns4"></p>
+	<br>
+	<h1 id="qHeader">5. Which of the following is an example of a conditional statement in programming?</h1>
+	<br>
+	<p id="urAns5">hehe</p>
+	<br>
+	<h1 id="qHeader">6. What is the purpose of an array in programming?</h1>
+	<br>
+	<p id="urAns6"></p>
+	<br>
+	<h1 id="qHeader">7. Which of the following is a data type in programming?</h1>
+	<br>
+	<p id="urAns7"></p>
+	<br>
+	<h1 id="qHeader">8. What is the purpose of debugging in programming?</h1>
+	<br>
+	<p id="urAns8"></p>
+	<br>
+	<h1 id="qHeader">9. Which of the following is an example of a compiled programming language?</h1>
+	<br>
+	<p id="urAns9"></p>
+	<br>
+	<h1 id="qHeader">10. What is the purpose of a loop in programming?</h1>
+	<br>
+	<p id="urAns10"></p>
+	<br>
+	</div>
+	
+		</div>
+</div>
+
+		<div class="btnDiv">
+	
+	<input type="button" class="strtButton" value="Start">
+		
+		</div>
+		
+
+	<div class="ansForm">
+	<!-- Question 1 -->
+<div class="container">
+	<section class="form">
+		 	<p class="qstions"> 
+		 	
+		 	1. What does HTML stand for? </p>
+		 	
+		 	<div class="question1">
+		 	
+		<label for="rd1" class="rdLabel">
+			<input type="radio" name="rdSec1" onchange="answerQ1A()" class="rdButton" id="rd1">
+			<div class="rdBack"></div>
+			A. High Text Main Language
+		</label>
+		
+		<label for="rd2" class="rdLabel">
+		<input type="radio" name="rdSec1" onchange="answerQ1B()" class="rdButton" id="rd2">
+		<div class="rdBack"></div>
+			B. Hyper Text Markup Language
+		</label>
+		
+		<label for="rd3" class="rdLabel">
+		<input type="radio" name="rdSec1" onchange="answerQ1C()" class="rdButton" id="rd3">
+		<div class="rdBack"></div>
+			C. Hyperlinks Text Main Language
+		</label>
+		
+		<label for="rd4" class="rdLabel">
+		<input type="radio" name="rdSec1" onchange="answerQ1D()" class="rdButton" id="rd4">
+		<div class="rdBack"></div>
+			D. Hyperlinks Text Machine Language
+		</label>
+		
+		</div>
+	</section>
+	
+</div>
+
+	<!-- Question 2 -->
+<div class="container">
+	<section class="form">
+		 	<p class="qstions"> 
+		 	2. Which of the following is NOT a programming language?
+		 	</p>
+		 	
+		 	<div class="question1">
+		 	
+		<label for="rd5" class="rdLabel">
+			<input type="radio" name="rdSec2" onchange="answerQ2A()"  class="rdButton" id="rd5">
+			<div class="rdBack"></div>
+			A. Python
+		</label>
+		
+		<label for="rd6" class="rdLabel">
+		<input type="radio" name="rdSec2" onchange="answerQ2B()" class="rdButton" id="rd6">
+		<div class="rdBack"></div>
+			B. Ruby
+		</label>
+		
+		<label for="rd7" class="rdLabel">
+		<input type="radio" name="rdSec2" onchange="answerQ2C()" class="rdButton" id="rd7">
+		<div class="rdBack"></div>
+			C. Javascript
+		</label>
+		
+		<label for="rd8" class="rdLabel">
+		<input type="radio" name="rdSec2" onchange="answerQ2D()" class="rdButton" id="rd8">
+		<div class="rdBack"></div>
+			D. HTML
+		</label>
+		
+		</div>
+	</section>
+	
+</div>
+
+	<!-- Question 3 -->
+<div class="container">
+<section class="form">
+	 	<p class="qstions"> 
+	 	
+	 	3. Which programming language is often used for artificial intelligence and machine learning? 
+	 	
+	 	</p>
+	 	
+	 	<div class="question1">
+	 	
+	<label for="rd10" class="rdLabel">
+		<input type="radio" name="rdSec3" onchange="answerQ3A()" class="rdButton" id="rd10">
+		<div class="rdBack"></div>
+		A. Java
+	</label>
+	
+	<label for="rd11" class="rdLabel">
+	<input type="radio" name="rdSec3" onchange="answerQ3B()" class="rdButton" id="rd11">
+	<div class="rdBack"></div>
+		B. C++
+	</label>
+	
+	<label for="rd12" class="rdLabel">
+	<input type="radio" name="rdSec3" onchange="answerQ3C()" class="rdButton" id="rd12">
+	<div class="rdBack"></div>
+		C. Python
+	</label>
+	
+	<label for="rd13" class="rdLabel">
+	<input type="radio" name="rdSec3" onchange="answerQ3D()" class="rdButton" id="rd13">
+	<div class="rdBack"></div>
+		D. JavaScript
+	</label>
+	
+	</div>
+</section>
+
+</div>
+
+	<!-- Question 4 -->
+<div class="container">
+<section class="form">
+	 	<p class="qstions"> 
+	 	
+	 	4. What is a function in programming? 
+	 	
+	 	</p>
+	 	
+	 	<div class="question1">
+	 	
+	<label for="rd14" class="rdLabel">
+		<input type="radio" name="rdSec4" onchange="answerQ4A()" class="rdButton" id="rd14">
+		<div class="rdBack"></div>
+		A. An input device for a computer
+	</label>
+	
+	<label for="rd15" class="rdLabel">
+	<input type="radio" name="rdSec4" onchange="answerQ4B()" class="rdButton" id="rd15">
+	<div class="rdBack"></div>
+		B. A variable that holds a value
+	</label>
+	
+	<label for="rd16" class="rdLabel">
+	<input type="radio" name="rdSec4" onchange="answerQ4C()" class="rdButton" id="rd16">
+	<div class="rdBack"></div>
+		C. A statement that evaluates<br>
+		to true or false
+	</label>
+	
+	<label for="rd17" class="rdLabel">
+	<input type="radio" name="rdSec4" onchange="answerQ4D()" class="rdButton" id="rd17">
+	<div class="rdBack"></div>
+		D. A block of code that performs <br>
+		a specific task
+	</label>
+	
+	</div>
+</section>
+
+</div>
+
+	<!-- Question 5 -->
+<div class="container">
+<section class="form">
+	 	<p class="qstions"> 
+	 	
+	 	5. Which of the following is an example of a conditional statement in programming?
+	 	
+	 	</p>
+	 	
+	 	<div class="question1">
+	 	
+	<label for="rd18" class="rdLabel">
+		<input type="radio" name="rdSec5" onchange="answerQ5A()" class="rdButton" id="rd18">
+		<div class="rdBack"></div>
+		A. Switch statement
+	</label>
+	
+	<label for="rd19" class="rdLabel">
+	<input type="radio" name="rdSec5" onchange="answerQ5B()" class="rdButton" id="rd19">
+	<div class="rdBack"></div>
+		B. If statement
+	</label>
+	
+	<label for="rd20" class="rdLabel">
+	<input type="radio" name="rdSec5" onchange="answerQ5C()" class="rdButton" id="rd20">
+	<div class="rdBack"></div>
+		C. While loop
+	</label>
+	
+	<label for="rd21" class="rdLabel">
+	<input type="radio" name="rdSec5" onchange="answerQ5D()" class="rdButton" id="rd21">
+	<div class="rdBack"></div>
+		D. For loop
+	</label>
+	
+	</div>
+</section>
+
+</div>
+
+	<!-- Question 6 -->
+<div class="container">
+<section class="form">
+	 	<p class="qstions">
+	 	  
+	 	  6. What is the purpose of an array in programming?
+	 	 
+	 	 </p>
+	 	
+	 	<div class="question1">
+	 	
+	<label for="rd22" class="rdLabel">
+		<input type="radio" name="rdSec6" onchange="answerQ6A()"  class="rdButton" id="rd22">
+		<div class="rdBack"></div>
+		A. To store multiple values in a<br>
+		single variable
+	</label>
+
+	<label for="rd23" class="rdLabel">
+	<input type="radio" name="rdSec6" onchange="answerQ6B()" class="rdButton" id="rd23">
+	<div class="rdBack"></div>
+		B. To execute a block of code<br>
+		repeatedly
+	</label>
+	
+	<label for="rd24" class="rdLabel">
+	<input type="radio" name="rdSec6" onchange="answerQ6C()" class="rdButton" id="rd24">
+	<div class="rdBack"></div>
+		C. To perform mathematical<br>
+		calculations
+	</label>
+	
+	<label for="rd25" class="rdLabel">
+	<input type="radio" name="rdSec6" onchange="answerQ6D()" class="rdButton" id="rd25">
+	<div class="rdBack"></div>
+		D. To create a user interface
+	</label>
+	
+	</div>
+</section>
+
+</div>
+
+	<!-- Question 7 -->
+<div class="container">
+<section class="form">
+	 	<p class="qstions"> 
+	 	
+	 	7. Which of the following is a data type in programming?
+	 	
+	 	</p>
+	 	
+	 	<div class="question1">
+	 	
+	<label for="rd26" class="rdLabel">
+		<input type="radio" name="rdSec7" onchange="answerQ7A()" class="rdButton" id="rd26">
+		<div class="rdBack"></div>
+		A. Loop
+	</label>
+	
+	<label for="rd27" class="rdLabel">
+	<input type="radio" name="rdSec7" onchange="answerQ7B()" class="rdButton" id="rd27">
+	<div class="rdBack"></div>
+		B. Function
+	</label>
+	
+	<label for="rd28" class="rdLabel">
+	<input type="radio" name="rdSec7" onchange="answerQ7C()" class="rdButton" id="rd28">
+	<div class="rdBack"></div>
+		C. String
+	</label>
+	
+	<label for="rd29" class="rdLabel">
+	<input type="radio" name="rdSec7" onchange="answerQ7D()" class="rdButton" id="rd29">
+	<div class="rdBack"></div>
+		D. Object
+	</label>
+	
+	</div>
+</section>
+
+</div>
+
+	<!-- Question 8 -->
+<div class="container">
+<section class="form">
+	 	<p class="qstions">
+	 	 
+	 	 8. What is the purpose of debugging in programming?
+	 	 
+	 	 </p>
+	 	
+	 	<div class="question1">
+	 	
+	<label for="rd30" class="rdLabel">
+		<input type="radio" name="rdSec8" onchange="answerQ8A()" class="rdButton" id="rd30">
+		<div class="rdBack"></div>
+		A. To create a user interface
+	</label>
+	
+	<label for="rd31" class="rdLabel">
+	<input type="radio" name="rdSec8" onchange="answerQ8B()" class="rdButton" id="rd31">
+	<div class="rdBack"></div>
+		B. To remove errors and bugs<br>
+		from code
+	</label>
+	
+	<label for="rd32" class="rdLabel">
+	<input type="radio" name="rdSec8" onchange="answerQ8C()" class="rdButton" id="rd32">
+	<div class="rdBack"></div>
+		C. To add new features<br>
+		to a program
+	</label>
+	
+	<label for="rd33" class="rdLabel">
+	<input type="radio" name="rdSec8" onchange="answerQ8D()" class="rdButton" id="rd33">
+	<div class="rdBack"></div>
+		D. To make code more efficient
+	</label>
+	
+	</div>
+</section>
+
+</div>
+
+	<!-- Question 9 -->
+<div class="container">
+<section class="form">
+	 	<p class="qstions"> 
+	 	
+	 	9. Which of the following is an example of a compiled programming language?
+	 	 
+	 	 </p>
+	 	
+	 	<div class="question1">
+	 	
+	<label for="rd34" class="rdLabel">
+		<input type="radio" name="rdSec9" onchange="answerQ9A()" class="rdButton" id="rd34">
+		<div class="rdBack"></div>
+		A. Python
+	</label>
+	
+	<label for="rd35" class="rdLabel">
+	<input type="radio" name="rdSec9" onchange="answerQ9B()" class="rdButton" id="rd35">
+	<div class="rdBack"></div>
+		B. Ruby
+	</label>
+	
+	<label for="rd36" class="rdLabel">
+	<input type="radio" name="rdSec9" onchange="answerQ9C()" class="rdButton" id="rd36">
+	<div class="rdBack"></div>
+		C. Javascript
+	</label>
+	
+	<label for="rd37" class="rdLabel">
+	<input type="radio" name="rdSec9" onchange="answerQ9D()" class="rdButton" id="rd37">
+	<div class="rdBack"></div>
+		D. C++
+	</label>
+	
+	</div>
+</section>
+
+</div>
+
+<!-- Question 10 -->
+<div class="container">
+<section class="form">
+	 	<p class="qstions">
+	 	
+	 	10. What is the purpose of a loop in programming?
+	 	 
+	 	 </p>
+	 	
+	 	<div class="question1">
+	 	
+	<label for="rd38" class="rdLabel">
+		<input type="radio" name="rdSec10" onchange="answerQ10A()" class="rdButton" id="rd38">
+		<div class="rdBack"></div>
+		A. To perform mathematical calculations
+	</label>
+	
+	<label for="rd39" class="rdLabel">
+	<input type="radio" name="rdSec10" onchange="answerQ10B()" class="rdButton" id="rd39">
+	<div class="rdBack"></div>
+		B. To store data in a database
+	</label>
+	
+	<label for="rd40" class="rdLabel">
+	<input type="radio" name="rdSec10" onchange="answerQ10C()" class="rdButton" id="rd40">
+	<div class="rdBack"></div>
+		C. To create a user interface
+	</label>
+	
+	<label for="rd41" class="rdLabel">
+	<input type="radio" name="rdSec10" onchange="answerQ10D()" class="rdButton" id="rd41">
+	<div class="rdBack"></div>
+		D. To execute a block of code repeatedly
+		
+	</label>
+	
+	</div>
+</section>
+
+</div>
+
+		</div>
+		
+		<div class="linkDiv">
+		<button class="subBtn"> Submit </button>
+	
+		</div>
+
+<div class="blackhole" >
+<p class="crts">
+	 	
+	 	Created by: Kent Coyoca
+	 	 </p>
+</div>
+
+<script defer src="script.js"></script>
+
+</body>
+</html>
