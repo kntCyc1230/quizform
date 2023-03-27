@@ -25,7 +25,6 @@ font-family:qck;
 	outline: none;
 	box-shadow: 0 0 30px rgba(73, 255, 242, 0);
 	transition: 0.40s ease-out;
-	cursor: pointer;
 	-webkit-tap-highlight-color:transparent;
 	text-align:center;
 	z-index:5;
@@ -159,7 +158,7 @@ font-family:qck;
 	color: #000;
 	box-shadow: 0 0 30px rgba(73, 255, 242, 0.5);
 	letter-spacing: 3px;
-
+	cursor: pointer;
 }
 
 
@@ -186,7 +185,6 @@ font-family:qck;
 	outline: none;
 	box-shadow: 0 0 30px rgba(73, 255, 242, 0);
 	transition: 0.40s ease-out;
-	cursor: pointer;
 	-webkit-tap-highlight-color:transparent;
 	text-align:center;
 	text-decoration:none;
@@ -204,7 +202,6 @@ font-family:qck;
 	outline: none;
 	box-shadow: 0 0 30px rgba(73, 255, 242, 0);
 	transition: 0.40s ease-out;
-	cursor: pointer;
 	-webkit-tap-highlight-color:transparent;
 	text-align:center;
 	text-decoration:none;
@@ -222,7 +219,6 @@ font-family:qck;
 	outline: none;
 	box-shadow: 0 0 30px rgba(73, 255, 242, 0);
 	transition: 0.40s ease-out;
-	cursor: pointer;
 	-webkit-tap-highlight-color:transparent;
 	text-align:center;
 	text-decoration:none;
@@ -237,9 +233,9 @@ font-family:qck;
 	height:40px;
 	width: 100px;
 	border: none;
-	margin-top:50px;
+	margin-top:40px;
 	left:50%;
-        transform:translateX(-50%);
+	transform:translateX(-50%);
 	background:transparent;
 	border: none;
 	color: #fff;
@@ -258,6 +254,7 @@ font-family:qck;
 	background: #fff;
 	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 	letter-spacing: 1px;
+	cursor: pointer;
 
 }
 
@@ -267,6 +264,7 @@ font-family:qck;
 	background: #fff;
 	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 	letter-spacing: 1px;
+	cursor: pointer;
 
 }
 
@@ -275,6 +273,7 @@ font-family:qck;
 	color: #000;
 	box-shadow: 0 0 30px rgba(73, 255, 242, 0.5);
 	letter-spacing: 3px;
+	cursor: pointer;
 
 }
 
@@ -283,6 +282,7 @@ font-family:qck;
 	color: #000;
 	box-shadow: 0 0 30px rgba(73, 255, 242, 0.5);
 	letter-spacing: 3px;
+	cursor: pointer;
 
 }
 
@@ -291,6 +291,7 @@ font-family:qck;
 	color: #000;
 	box-shadow: 0 0 30px rgba(73, 255, 242, 0.5);
 	letter-spacing: 3px;
+	cursor: pointer;
 
 }
 
@@ -455,5 +456,5 @@ font-family:qck;
 	margin-top:50%;
 
 }
-
+	
 }
